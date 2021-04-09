@@ -15,3 +15,65 @@ Aplicação GCG
 -> controle de compras (exemplo: compra tal feita no cartao tal)
 -> bonificacao de vendas de clientes
 -> controle por vendedor
+
+--------------
+pre-informacoes das classes
+- usuarios
+-- nome
+-- email
+- funcionarios
+-- nome
+-- email
+- clientes
+-- nome
+-- foto
+-- email
+-- link_endereco
+-- telefone
+-- rede_social
+-- descricao
+- endercos
+-- cidade
+-- bairro
+-- logradouro
+-- numero
+- produtos
+-- nome
+-- preco
+-- foto
+-- descricao
+-- receita
+- pedidos
+-- produtos
+-- valor_total
+-- tipo_pagamento(cartao_ou_dinheiro)
+-- cliente
+-- funcionario
+- entregas
+-- pedidos
+-- valor_entrega
+-- funcionario
+- vendas
+-- pedidos
+-- entregas
+-- valor_total
+- receitas
+-- nome
+-- ingradientes
+-- modo_de_preparo
+-- descricao
+- itens
+-- nome
+-- valor
+-- quantidade
+-- valor_total
+- compras
+-- itens
+-- valor_total
+-- modo_de_pagamento
+-- descricao_modo_de_pagamento
+-- pago_por(funcionario)
+- caixa
+-- valor_entrada
+-- valor_saida
+-- balanco
