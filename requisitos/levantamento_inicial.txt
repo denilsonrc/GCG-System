@@ -1,0 +1,17 @@
+Aplicação GCG
+- Requisitos
+-> login -> contorle de usuario
+-> CRUD de clientes
+-> CRUD de pedidos
+-> CRUD de receitas
+-> CRUD de estoque
+-> CRUD de produtos
+-> tabela de producao do dia (pode mudar o dia)
+-> tabela de entrega do dia (pode mudar o dia)
+-> precificacao de produtos
+* -> precificacao de entregas
+-> fechamento de caixa e balanco
+-> pedidos com cartao e em dinheiro
+-> controle de compras (exemplo: compra tal feita no cartao tal)
+-> bonificacao de vendas de clientes
+-> controle por vendedor
